@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agende seu horário </title>
+    
+   </head>
+<body background="loginsiuuu.jpg">
+   <center>
+    <h1> Agende aqui o seu horário</h1>
+    <form method='POST' action='recebe-dados.php'>
+        <label for="nome">Nome</label>
+        <input type='text' id='nome' name='nome' required>
+        <label for="email">Email</label>
+        <input type='email' id='email' name='email' required>
+        <br>
+        <label for="fone">Celular com DDD</label>
+        <input type="tel" id="fone" name="fone" >
+        <label for="hora-desejada">Hora desejada</label>
+        <input type="time" id="hora-desejada" name="hora-desejada" required>
+        <br>
+       
+        <label for="dtnasc">Data </label>
+        <input type='date' id='dtnasc' name='dtnasc'>
+        
+        <br>
+       
+        
+        <p>Barbearias disponiveis: </p>
+        <input type="radio" id="nepal" name="barbearia" value="Nepal">
+        <label for="nepal">Nepal</label><br>
+        <input type="radio" id="mato" name="barbearia" value="Mato Grosso">
+        <label for="mato">Mato Grosso</label>
+        <input type="radio" id="coleia" name="barbearia" value="Coreia">
+        <label for="coleia">Coreia do norte</label>
+        <br>
+        
+        </select>
+        <br>
+        <label for="msg">Mensagem</label><br>
+        <textarea id="msg" name="msg" rows="4" cols="50"></textarea>
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Enviar">
+    </form>
+    <h1> Até breve </h1>
+</center>
+</body>
+</html>

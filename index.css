@@ -1,0 +1,95 @@
+body {
+    margin: 0%;
+}
+
+/* id */
+#a {
+    align-items: center;
+    text-align: center;
+}
+
+#Sobre_mim {
+    text-align: center;
+    color: #000000;
+}
+
+#projetos {
+    text-align: center;
+    background-color: rgb(1, 148, 1);
+    font-family: 'M PLUS 1p', sans-serif;
+}
+
+#Cursos {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#fim {
+    text-align: center;
+}
+
+/*id_fim*/
+
+/*class*/
+.a {
+    border-radius: 0.2rem;
+    background-color: #16a200;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.avatar {
+    border-radius: 100%;
+    width: 24rem;
+    height: 24rem;
+    margin-right: 10rem;
+}
+.butao {
+    border-radius: 0.2rem;
+    background-color: #ff0000;
+    padding: 1rem 2rem;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+}
+
+.cursos_img {
+    height: 40px;
+}
+.eu {
+    background-color: green;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.eu img {
+    margin: 0 auto;
+    transition: 0.2s all;
+}
+/*class_fim*/
+
+/*img*/
+img:hover {
+    transform: scale(1.1)
+}
+
+img {
+    height: 20%;
+}
+/* p */
+
+p {
+    font-family: 'Arvo', serif;
+}
+
+
+
+
+
+
+
